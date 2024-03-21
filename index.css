@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+}
+
+header {
+    background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2023/05/dune2_vert_tsr_2764x4096_dom_rev.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 2em;
+    color: #fff;
+    margin-bottom: 0.875em;
+    height: 185px;
+}
+
+.head-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    font-size: 0.75rem;
+    letter-spacing: 0.75px;
+}
+
+h1 {
+    font-size: 1.875rem;
+}
+
+.search-container {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    margin: 3.1em auto 0;
+}
+
+input,
+.search-btn {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 1px 1px 5px #999;
+    font-size: 0.875rem;
+    font-family: inherit;
+}
+
+input {
+    min-width: 350px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.search-btn {
+    min-width: 150px;
+    cursor: pointer;
+}
+
+main,
+.main-two {
+    padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: 0.75em;
+    padding-bottom: 0.75em;
+    border-bottom: 2px solid #999;
+    min-width: 500px;
+}
+
+img {
+    width: 90px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.inner-container {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin: 0.25em 0;
+}
+
+h2 {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+span {
+    font-size: 0.875rem;
+}
+
+p {
+    opacity: 0.6;
+    max-width: 400px;
+    margin: 0.25em 0;
+}
+
+.add-btn,
+.remove-btn {
+    border: none;
+    font-family: inherit;
+    font-size: 0.875rem;
+    background: #e8751a;
+    border-radius: 5px;
+    padding: 4px 8px;
+    cursor: pointer;
+}
+
+.start-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.start-text {
+    text-align: center;
+}
+
+.container:last-child {
+    border: none;
+}
